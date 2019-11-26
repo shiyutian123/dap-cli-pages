@@ -1,3 +1,11 @@
+<!--
+ * @Author: Devin Shi
+ * @Email: yutian.shi@definesys.com
+ * @Date: 2019-11-07 08:38:36
+ * @LastEditTime: 2019-11-25 11:02:05
+ * @LastEditors: Devin Shi
+ * @Description: 
+ -->
 ## 配置文件详解
 ***
 
@@ -37,7 +45,7 @@ dap的插件工程有特殊的配置描述文件`.dap-cli.json`，来支持插�
 
 
 #### 文件结构-示例
-`json
+```json
 {
   "version": "0.0.1",
   "name": "hello",
@@ -83,4 +91,4 @@ dap的插件工程有特殊的配置描述文件`.dap-cli.json`，来支持插�
     "clientId": "dapAppClient"
   }
 }
-`
+```
